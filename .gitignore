@@ -1,0 +1,67 @@
+# bloop and metals
+.bloop
+.bsp
+
+# metals
+project/metals.sbt
+.metals
+
+# vs code
+.vscode
+
+# scala 3
+.tasty
+
+# sbt
+project/project/
+project/target/
+target/
+
+# eclipse
+build/
+.classpath
+.project
+.settings
+.worksheet
+.cache
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache-main
+.env
+
+#general
+*.class
+
+# scala 3
+.tasty
+
+# sbt
+project/project/
+project/target/
+target/
+
+# node
+dist
+node_modules
+cdk.out
+cdk.context.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
