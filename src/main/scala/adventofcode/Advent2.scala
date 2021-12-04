@@ -43,3 +43,5 @@ object Advent2:
         case (s"down $x", (horizontal, depth, aim)) => (horizontal, depth, aim + x.toInt)
         case (s"up $x", (horizontal, depth, aim))   => (horizontal, depth, aim - x.toInt)
     )
+  def run(input: List[String]) =
+    (followRoute1(input), followRoute2(input))

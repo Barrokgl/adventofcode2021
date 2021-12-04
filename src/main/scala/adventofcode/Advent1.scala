@@ -17,3 +17,7 @@ object Advent1:
       .sliding(2)
       .filter { case x :: y :: Nil => x < y }
       .length
+
+  def run(input: List[String]) =
+    val inputInts = input.map(_.toInt)
+    (countIncreasedMeasurments(inputInts), countIncreasedMeasurments2(inputInts))
