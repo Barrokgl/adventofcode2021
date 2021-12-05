@@ -1,4 +1,4 @@
-package adventofcode
+package adventofcode2021
 
 import scala.annotation.tailrec
 

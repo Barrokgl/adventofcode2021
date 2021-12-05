@@ -1,4 +1,4 @@
-package adventofcode
+package adventofcode2021
 
 object Advent1:
   // part one
