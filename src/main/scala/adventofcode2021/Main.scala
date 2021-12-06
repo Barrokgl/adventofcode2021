@@ -6,6 +6,7 @@ package adventofcode2021
   println(s"task 3: ${Advent3.run(getInput("./input3.txt"))}")
   println(s"task 4: ${Advent4.run(getInput("./input4.txt"))}")
   println(s"task 5: ${Advent5.run(getInput("./input5.txt"))}")
+  println(s"task 6: ${Advent6.run(getInput("./input6.txt"))}")
 
 def getInput(file: String): List[String] =
   scala.io.Source.fromFile(file).getLines.toList
